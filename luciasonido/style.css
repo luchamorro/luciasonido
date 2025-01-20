@@ -1,0 +1,250 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9rem;
+    background-color: rgb(211, 211, 213);
+    
+}
+
+.seccionPrincipal{
+    display: flex;
+}
+
+.divContenido{
+    width: 90%;
+    max-height: 100%;
+    border: solid black 0.05rem;
+    margin-left: 1rem;
+    margin-right: 4rem;
+    /*display: none;*/
+    padding: 1.5rem;
+    background-color: white;
+}
+
+.divContenidoLunaAnfibia{
+    width: 90%;
+    height: fit-content;
+  
+    border: solid black 0.05rem;
+    margin-left: 1rem;
+    margin-right: 4rem;
+    /*display: none;*/
+    padding: 1.5rem;
+    background-color: white;
+
+}
+
+
+.divContenidoYaFue{
+    width: fit-content;
+    height: fit-content;
+  
+    border: solid black 0.05rem;
+    margin-left: 1rem;
+    margin-right: 4rem;
+    /*display: none;*/
+    padding: 1.5rem;
+    background-color: white;
+
+}
+
+
+article{
+    max-width: 90%;
+  
+}
+
+.lineaTextoArriba{
+    color: rgb(172, 171, 171);
+}
+
+
+
+header{
+    top:0;
+    position: sticky;
+}
+
+h1{
+   
+
+    
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 1rem;
+
+    background-color: rgb(255, 255, 255);
+    border-bottom: solid black 0.05rem;
+   
+}
+
+
+
+h3{
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}
+
+.espaciador {
+    padding: 0.8rem;
+}
+
+h2{
+    font-size: 1.2rem;
+}
+
+h4{
+    font-weight: bold;
+}
+
+.textoChico{
+    font-style: italic;
+    font-size: 0.8rem;
+    color: grey;
+    padding-inline: 2rem;
+
+}
+
+.textoChico2{
+    font-style: italic;
+    font-size: 0.8rem;
+    color: grey;
+
+}
+
+
+.iframeVideos{
+    display: flex;
+    align-items: center;
+}
+
+.iframeVideosYoutube{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    gap: 1rem;
+}
+
+.menuProyectos{
+    
+    margin-left: 3.3rem;
+    padding-inline: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: white;
+    border: solid black 0.05rem;
+    width: 20%;
+    height: fit-content;
+    line-height: 1rem;
+  
+}
+
+a.enlacesMenu {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+a.enlacesMenuSeleccionado {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 127, 234);
+
+}
+
+a.enlacesMenu:hover {
+ 
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 127, 234);
+}
+
+
+footer{
+    bottom: 0;
+    position: sticky;
+    background-color: white;
+    padding-bottom: 0.4rem;
+    border-top: solid black 0.05rem;
+    
+}
+
+
+.divFooter {
+    
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 0.4rem;
+    gap: 2rem;
+    justify-content: center;
+    font-size: 0.8rem;
+    
+   
+}
+
+.imagenAndTexto{
+display: flex;
+gap: 3rem;
+
+}
+
+.iframe1{
+    width: 45%;
+    height: 100%;
+
+}
+
+.video {
+    padding: 0.3rem;
+    border: solid black 0.05rem;
+    background-color: black;
+}
