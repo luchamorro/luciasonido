@@ -248,3 +248,30 @@ gap: 3rem;
     border: solid black 0.05rem;
     background-color: black;
 }
+
+.imagenSinto{
+    width: 100%;
+}
+
+.imagenSinto img{
+
+    object-fit: cover;
+}
+
+.imagenSinto2{
+    width: 100%;
+
+}
+
+.imagenSinto2 img{
+
+    object-fit: cover;
+}
+
+.playlistpsrocha{
+    width: 30rem;
+}
+
+.playlistpsrocha iframe {
+    object-fit: cover;
+}
