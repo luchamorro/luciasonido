@@ -30,6 +30,10 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1.6rem;
+   /* background-image: url("img/sintonizadores/sintonizadores2.jpg");
+    background-attachment: fixed;*/
+
+
 }
 ol, ul {
 	list-style: none;
@@ -48,11 +52,14 @@ table {
 }
 
 body{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Space Grotesk", serif;
     font-size: 0.9rem;
-    background-color: rgb(211, 211, 213);
+    background-color: rgb(21, 21, 21);
+
     
 }
+
+
 
 .seccionPrincipal{
     display: flex;
@@ -66,33 +73,60 @@ body{
     margin-right: 4rem;
     /*display: none;*/
     padding: 1.5rem;
-    background-color: white;
+
+    animation: opaci 2s, mymove 2s;
+
+
 }
+
+
 
 .divContenidoLunaAnfibia{
     width: 90%;
     height: fit-content;
+    color: rgb(245, 245, 245);
   
-    border: solid black 0.05rem;
+    font-size: 1rem;
     margin-left: 1rem;
     margin-right: 4rem;
     /*display: none;*/
-    padding: 1.5rem;
-    background-color: white;
+    padding: 2rem;
+    padding-inline: 4rem;
+    position: relative;
+    
+    animation: opaci 2s, mymove 2s;
+    
+
 
 }
+
+/*@keyframes mymove {
+    from {right: -200px;}
+    to {right: 0px;}
+  }*/
+
+  @keyframes mymove {
+    from {right: -50px;}
+    to {right: 0px;}
+  }
+
+  @keyframes opaci {
+    from {opacity: 0;}
+    to {opacity: 100%;}
+  }
+
 
 
 .divContenidoYaFue{
     width: fit-content;
     height: fit-content;
-  
-    border: solid black 0.05rem;
     margin-left: 1rem;
     margin-right: 4rem;
     /*display: none;*/
     padding: 1.5rem;
-    background-color: white;
+    background-color: rgb(21, 21, 21);
+    color: rgb(236, 236, 236);
+    animation: opaci 2s, mymove 2s;
 
 }
 
@@ -111,18 +145,22 @@ article{
 header{
     top:0;
     position: sticky;
+    
 }
 
 h1{
    
-
-    
-    font-size: 1.6rem;
+    font-size: 2.5rem;
     font-weight: bold;
-    padding: 1rem;
+    padding: 2rem;
+    color: rgb(241, 240, 242);
+    position: sticky;
+    background-color: rgb(21, 21, 21);
+    
 
-    background-color: rgb(255, 255, 255);
-    border-bottom: solid black 0.05rem;
+
+
+   /* background-color: rgb(255, 255, 255);*/
    
 }
 
@@ -130,7 +168,7 @@ h1{
 
 h3{
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 2rem;
     padding-bottom: 1rem;
 }
 
@@ -140,6 +178,7 @@ h3{
 
 h2{
     font-size: 1.2rem;
+    font-weight: bold;
 }
 
 h4{
@@ -177,21 +216,22 @@ h4{
 .menuProyectos{
     
     margin-left: 3.3rem;
-    padding-inline: 0.5rem;
+    padding-inline: 2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: white;
-    border: solid black 0.05rem;
+    background-color: rgb(17, 17, 17);
+    border: solid rgb(225, 224, 224) 0.05rem;
     width: 20%;
     height: fit-content;
     line-height: 1rem;
+    color: aliceblue;
   
 }
 
 a.enlacesMenu {
     list-style: none;
     text-decoration: none;
-    color: black;
+    color: rgb(227, 223, 223);
 }
 
 a.enlacesMenuSeleccionado {
@@ -245,7 +285,7 @@ gap: 3rem;
 
 .video {
     padding: 0.3rem;
-    border: solid black 0.05rem;
+    border: solid rgb(219, 215, 215) 0.05rem;
     background-color: black;
 }
 
